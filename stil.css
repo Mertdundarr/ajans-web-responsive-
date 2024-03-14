@@ -1,0 +1,516 @@
+.body{
+    background-image: url(resimler/Background.png);
+    background-repeat:repeat ;
+}
+
+.logo {
+    height: 45px;
+    object-fit : fill;
+}
+
+/* responsive */
+
+
+/* @media only screen and (max-width: 1200px) {
+    #responsive {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+} */
+
+
+.ayrac {
+    font-size: 20px;
+    margin: 0px 20px;
+    color:white;
+}
+
+.nav-bg {
+    background-color: rgba(rgba(255, 255, 255, 0.567));
+}
+
+.header-yuk{
+    height: calc(50vh - 90px);
+  
+}
+
+.sayfa-baslik h3{
+    color: black;
+    font-weight: bold;
+}
+
+.sayfa-baslik p{
+    color: #fff;
+    font-weight: bold;
+}
+
+.ust-kisim {
+    background-image:url(resimler/Background.png) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+.ust-kisim-1{
+    width: 750px;
+    height: 750px;
+    margin-left:auto;
+    margin-bottom: 0px !important;
+}
+
+ .ust-kisim-sayfalar {
+    background-image:url(resimler/Background.png) ;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-item a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-item a:hover {
+    color: #9d9d9db6;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+.navbar-toggler{
+    color: white;
+    border: 1px solid white;
+}
+
+.navbar-toggler:hover{
+    border: none;
+}
+
+@media screen and (max-width:992px) {
+    .ayrac{
+        display: none;
+    }
+
+    .nav-item:hover{
+        background-color: black;
+    }
+
+    .navbar-toggler{
+        z-index: 999;
+        position: fixed;
+        right: 10px;
+        top: 20px;
+    }
+    .navbar-toggler:hover{
+        border: 1px solid white;
+    }
+
+    .pozisyon{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(114, 110, 110);
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .baslik {
+        font-size: 1.8em !important;
+    }
+
+    .yuvarlak {
+        font-size: 16px !important;
+        border-radius: 25px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+
+/* harekete geç butonu sitili*/
+.yuvarlak{
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+}
+
+.
+/**************************/
+.bosluk {
+    margin-top: 100px;
+}
+
+/**Teklif Kısmı**/
+
+.teklif {
+    height: 60px;
+}
+.tirnak {
+    color: #575454;
+    font-size: 25px;
+    font-weight: bold;
+}
+.imza{
+    font-size: 15px ;
+}
+
+.kolon{
+    background-color: #EEEEEE
+}
+
+/**Hizmetlerimiz**/
+    .hizmetlerimiz {
+        background-color: #FFFFFF
+    }
+
+    /*resim buyutları**/
+    .resimboyutu {
+        width: 100px;
+        height: 100px;
+        image-rendering: pixelated;
+        object-fit: cover;
+    }
+    
+    .resimbuyutu2{
+        width: 250px;
+        height: 250px;
+        image-rendering: pixelated;
+        object-fit: cover;
+        border-radius: 15px;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-10%, -10%);
+       
+        
+    }
+    
+    .videobuyutu2 {
+        width: 250px;
+        height: 250px;
+        image-rendering: pixelated;
+        object-fit: cover;
+        border-radius: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-8%, -2%);
+        
+        
+      }
+
+
+
+
+  /** Slogan*/
+
+ .tirnak1 {
+    color: gray;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.soz{
+    font-size:40px;
+    color: white;
+}
+.slogan{
+    background-image: url(resimler/Background.png);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center center;
+  
+
+}
+.roket-icon{
+    width: 100px;;
+    color: white;
+
+}
+
+/*çalışmalarımız*/
+
+.calisma{
+    padding: 5px;
+    border: 1px solid transparent;
+}
+.calisma:hover{
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.calisma img{
+    height: 150px;
+}
+
+/* Footer Kısmı*/
+
+@import url('https://fonts.cdnfonts.com/css/along-sans-s2');
+body{
+	line-height: 1.8;
+	font-family: 'Along Sans s2'Georgia, 'Times New Roman', Times, serif;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.footer{
+	background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff ;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #6a6161;/*çizginin rengi*/
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #ffffff;
+	display: block;
+	transition: all 0.3s ease ;
+    font-weight: bold;
+}
+.footer-col ul li a:hover{
+	color: #6a6161; /*yaznın üstüne gelince renk değiştirme*/
+	padding-left: 15px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+.uu2{
+   text-align: center;
+   width: 200px;
+}
+
+/*  hizmetlerimiz resim boyutları*/
+
+.hizmetlerimiz_resim{
+    width: 200px;
+    height: 175px;
+}
+
+
+/* iletişim kısmı*/
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+  button:hover {
+    background-color: #5c5b5b;  /* Hover background color */
+  }
+
+  
+  @media (max-width: 768px) {
+    form {
+      max-width: 100%;
+    }
+  }
+  
+
+/*harita boyutu*/
+
+.map-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 70vh;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+  }
+
+  
+  @media (max-width: 768px) {
+    .map-container {
+      height: 100vh;
+    }
+  }
+  
+  
+ 
+  
+
+/*kutu rengi navbar*/
+
+.siyah{
+    background-color: black;
+}
+
+
+/*başlıklar yazı boyutu rengi, heykel boyutları */
+
+.renk{
+    color: white !important;
+}
+
+
+.heykel{
+    width: 400px;
+}
+
+/*sidebar - yan menü yapımı*/
+
+.sidebar {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFFFF;
+  }
+  .sidebar {
+    display: none; /* Mobil cihazlarda başlangıçta gizle */
+}
+
+@media only screen and (min-width: 768px) {
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.sidebar-img {
+    width: 75px; /* Resim genişliği */
+    margin-bottom: 100px; /* Resimler arası boşluk */
+    transform: rotate(-90deg); /* İkonun dönüşünü ayarlar */
+    margin-top: 25px;
+
+    
+}
+
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-icon i {
+    border-radius: 20px; /* İkonun yuvarlak köşelere sahip olmasını sağlar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Hafif bir gölge ekler */
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 30px;
+    
+}
+
+
+
+
+  
